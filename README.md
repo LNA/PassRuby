@@ -1,6 +1,6 @@
 PassRuby
 ========
-I made this for my newbie friends.  
+I made this for my newbie friends.  I want to help them learn test driven development and Ruby.  
 
 First: Clone the repo
 
