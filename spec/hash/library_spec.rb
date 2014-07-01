@@ -11,32 +11,32 @@ describe Library do
       expect(my_library.records).to eq {}
     end
 
-    xit "should initialize with an id" do
+    it "should initialize with an id" do
       expect(my_library.id).to eq 1
     end
   end
 
   context '#save' do
-    xit "saves an item with an id" do
+    it "saves an item with an id" do
       my_library.save(funny_book)
 
       expect(my_library.records[1]).to eq funny_book
     end
 
-    xit 'sets the id on the book that it saves' do
+    it 'sets the id on the book that it saves' do
       my_library.save(funny_book)
 
       expect(my_library.records[1].id).to eq funny_book.id
     end
 
-    xit 'increments the id by 1 after saving an item' do
+    it 'increments the id by 1 after saving an item' do
       my_library.save(funny_book)
       my_library.save(blue_book)
 
       expect(my_library.records[2].id).to eq blue_book.id
     end
 
-    xit 'can save more than one item' do
+    it 'can save more than one item' do
       my_library.save(funny_book)
       my_library.save(blue_book)
       my_library.save(bulls_hat)
@@ -46,20 +46,20 @@ describe Library do
   end
 
   context '#all' do
-    xit 'returns all items' do
+    it 'returns all items' do
       my_library.save(funny_book)
       my_library.save(bulls_hat)
 
       expect(my_library.all).to eq [funny_book, bulls_hat]
     end
 
-    xit 'returns an empty array if it has no items' do
+    it 'returns an empty array if it has no items' do
       expect(my_library.all).to eq []
     end
   end
 
   context '#find_by_id' do
-    xit 'finds a record by the id' do
+    it 'finds a record by the id' do
       my_library.save(funny_book)
       my_library.save(bulls_hat)
 
@@ -68,7 +68,7 @@ describe Library do
   end
 
   context '#delete_by_id' do
-    xit 'deletes an item' do
+    it 'deletes an item' do
       my_library.save(funny_book)
       my_library.save(bulls_hat)
       my_library.delete_by_id(1)
