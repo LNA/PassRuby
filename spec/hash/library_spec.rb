@@ -8,7 +8,7 @@ describe Library do
 
   context '#initialize' do
     it "initializes with empty records" do
-      expect(my_library.records).to eq {}
+      expect(my_library.records).to eq({})
     end
 
     it "should initialize with an id" do

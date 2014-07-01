@@ -29,7 +29,7 @@ describe Kitchen do
   end
 
   it "removes items that don't belong in the kitchen" do
-    expect(kitchen.remove_with_slice(["stove", "rat", "shoe", "pan"])).to eq ["stove, pan"]
+    expect(kitchen.remove_with_slice(["stove", "rat", "shoe", "pan"])).to eq ["stove", "pan"]
   end
 
   it "creates arrays out of each element" do
