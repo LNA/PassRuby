@@ -14,9 +14,9 @@ I made this for my newbie friends.  I want to help them learn test driven develo
  
     rspec/spec/refactor
 
+6. Write code in the lib directory to make each failing spec pass
 
-6. Choose a directory (array, hash) to work on and save one of the files for guard to start listening
 
-7. Write code in the lib directory to make each failing spec pass
+Send a pull request if you'd like to contribute! And Feedback is always welcome.
 
-9. Give me feedback!
+@HashtagLaToya
