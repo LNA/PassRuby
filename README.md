@@ -18,5 +18,3 @@ I made this for my newbie friends.  I want to help them learn test driven develo
 
 
 Send a pull request if you'd like to contribute! And Feedback is always welcome.
-
-@HashtagLaToya
