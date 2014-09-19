@@ -14,7 +14,6 @@ I made this for my newbie friends.  I want to help them learn test driven develo
  
     rspec/spec/refactor
 
-to see the failing tests of that section.
 
 6. Choose a directory (array, hash) to work on and save one of the files for guard to start listening
 
