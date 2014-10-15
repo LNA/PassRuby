@@ -1,5 +1,11 @@
 class Kitchen
 
-# Enter code to make the specs pass!!!
+  attr_accessor :items
+  def initialize
+    @items = []
+  end
 
+  def items
+    @items
+  end
 end
