@@ -2,7 +2,9 @@ PassRuby
 ========
 I made this for my newbie friends.  I want to help them learn test driven development and Ruby.
 
-1. Clone the repo.
+1. Clone the repository:
+
+    `git clone git@github.com:LNA/PassRuby.git`
 
 2. cd into the repository 
 
